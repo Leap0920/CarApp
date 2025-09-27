@@ -95,6 +95,15 @@ label {
     .table-dark tr:hover {
         background-color: #2f2f2f;
     }
+    .custom-dark-table th,
+    .custom-dark-table td {
+    color: #e0e0e0 !important; 
+    }
+
+    .custom-dark-table tbody tr:hover td {
+    color: #ffffff !important;
+    background-color: #2f2f2f !important;
+    }
 
 
 input, textarea, select {
